@@ -43,6 +43,21 @@ python send_email.py`
 
 or run it in an IDE like PyCharm
 
+## Automation
+
+1. Windows users - Follow Step-by-step:
+  - Open Task Scheduler
+  - Click 'Create Basic Task'
+  - Name your app and decide how often it should be sent
+  - Under 'Action' select 'Start a program'
+  - Copy and paste the path of the your python 3 installation into 'Program/script' (it should look like C:\Users\yourname\Appdata\Local\Programs\Python\Python3\python.exe)
+  - Under 'Arguments', Copy and paste the path of mailapp.py
+  - Add any other settings
+  - You're done!
+2. OSX Users - Follow this tutorial:
+ [https://www.youtube.com/watch?v=nVlOapHc-kg](https://www.youtube.com/watch?v=nVlOapHc-kg)
+3. Linux users - Follow this tutorial:
+[https://www.youtube.com/watch?v=j-KgGVbyU08](https://www.youtube.com/watch?v=j-KgGVbyU08)
 
 ## Security
 Storing email credentials in plain text within your scripts is not recommended for production use. Consider using environment variables or a configuration file with restricted access to store sensitive information.

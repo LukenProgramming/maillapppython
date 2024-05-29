@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 
 def send_email(subject, body, to_emails):
     smtp_server = 'smtp.gmail.com'  # or any SMTP site
-    smtp_port = 587  # port can vary site to site
+    smtp_port = 587  
     smtp_username = 'yourname@gmail.com'  # replace with you own email
     smtp_password = 'abcd1234efgh5678'  # you may need to create an app password. for more see README.md file
 

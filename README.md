@@ -39,7 +39,7 @@ Run the Script:
 Execute the script using Python:
 
 `shell : 
-python send_email.py`
+python mailapp.py`
 
 or run it in an IDE like PyCharm
 
